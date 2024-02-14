@@ -33,6 +33,12 @@ input {
     margin-top: 20px;
 }
 
+input:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
 button {
     background: #debff4;
     color: white;
@@ -94,3 +100,4 @@ button:hover {
     color: #fff;
     margin-top: 10px;
 }
+
